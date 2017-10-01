@@ -1,0 +1,18 @@
+the version is ...
+by the command 
+glxinfo | grep 'version'
+
+
+glxinfo | grep 'version'
+server glx version string: 1.4
+client glx version string: 1.4
+GLX version: 1.4
+OpenGL core profile version string: 3.3 (Core Profile) Mesa 10.1.3
+OpenGL core profile shading language version string: 3.30
+OpenGL version string: 3.0 Mesa 10.1.3
+OpenGL shading language version string: 1.30
+===================================
+compile by 
+g++ final.c -o 4 -lGL lGLU -lglut -lm
+ 
+or by executing ./make final.c 4
